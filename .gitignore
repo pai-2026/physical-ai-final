@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# 社内・検証用ディレクトリ (提出対象外)
+*_internal/
+Step*-*_internal/
+
+# 大容量データセット・動画・モデル重み (提出対象外)
+datasets/
+videos/
+outputs/
+images/
+*.tar.gz
+*.mp4
+*.png
+*.parquet
+
+# PDF・一時ファイル
+*.pdf
+
+# システム・エディタ
+.DS_Store
+.vscode/
+.idea/
+.gemini/
+
+# Local review files and separately submitted slides
+docs/
+AGENTS.md
+GEMINI.md
+README copy.md
